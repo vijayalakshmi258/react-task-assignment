@@ -1,0 +1,19 @@
+.task{
+    background-color: #3260bd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(1px + 2vmin);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    border-color: #12367f;
+    padding: 20px 20px;
+}
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+}
