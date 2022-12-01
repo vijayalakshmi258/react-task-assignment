@@ -1,0 +1,56 @@
+
+.task-form {
+    text-align: left;
+    padding: 0px 20px;
+    background-color: #3260bd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(1px + 2vmin);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    border-color: #12367f;
+}
+.titleDiv{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    font-weight: bold;
+    color:#8bf8e8
+}
+
+.addTask{
+    background-color: #3260bd;
+    color:#8bf8e8;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100px;
+    border-color: black;
+    margin: 20px 0px;
+}
+
+.input{ /* Chrome/Opera/Safari */
+    text-decoration: underline;
+    border: none;
+    background-color: #3260bd;
+    color: white;
+}
+.select{
+  text-decoration: underline;
+    border: white;
+    background-color: #3260bd;
+    color: white;
+}
+.input:focus {
+    border-color: hsl(var(--input-focus-h), var(--input-focus-s), var(--input-focus-l));
+  }
+
+  input[type="date" i]{
+    text-decoration: underline;
+    border: none;
+  }
+  .newtask{
+    margin-top: 20px;
+  }
