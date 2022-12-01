@@ -1,0 +1,22 @@
+.addButton {
+    background-color: #12367f;
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0px 5px;
+    border-radius: 100px;
+  }
+  .addDiv{
+    text-align: right;
+    margin-right: 50px;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #12367f;
+  }
